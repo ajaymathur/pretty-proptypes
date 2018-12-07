@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.container .block {
+  flex: 0 0 50%;
+}
+
+.container .block .ReactCodeMirror {
+  height: 100%;
+}
