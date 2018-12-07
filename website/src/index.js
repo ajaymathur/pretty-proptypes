@@ -5,9 +5,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 class Index extends React.Component {
-  componentDidCatch(error) {
-    console.log(error);
-  }
   render() {
     return <App />;
   }
